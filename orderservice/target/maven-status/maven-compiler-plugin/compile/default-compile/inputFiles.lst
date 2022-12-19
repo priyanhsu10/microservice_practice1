@@ -1,0 +1,13 @@
+/Users/priyanshuparate/projects/java/onlinestore_micro/orderservice/src/main/java/org/order/orderapi/dtos/OrderDto.java
+/Users/priyanshuparate/projects/java/onlinestore_micro/orderservice/src/main/java/org/order/orderapi/dtos/OrderDtoResponse.java
+/Users/priyanshuparate/projects/java/onlinestore_micro/orderservice/src/main/java/org/order/orderapi/dtos/InventoryItemDto.java
+/Users/priyanshuparate/projects/java/onlinestore_micro/orderservice/src/main/java/org/order/orderapi/models/Order.java
+/Users/priyanshuparate/projects/java/onlinestore_micro/orderservice/src/main/java/org/order/orderapi/config/WebClientConfig.java
+/Users/priyanshuparate/projects/java/onlinestore_micro/orderservice/src/main/java/org/order/orderapi/models/OrderItem.java
+/Users/priyanshuparate/projects/java/onlinestore_micro/orderservice/src/main/java/org/order/orderapi/repositories/OrderRepository.java
+/Users/priyanshuparate/projects/java/onlinestore_micro/orderservice/src/main/java/org/order/orderapi/services/InventoryService.java
+/Users/priyanshuparate/projects/java/onlinestore_micro/orderservice/src/main/java/org/order/orderapi/dtos/OrderItemDto.java
+/Users/priyanshuparate/projects/java/onlinestore_micro/orderservice/src/main/java/org/order/orderapi/OrderApplication.java
+/Users/priyanshuparate/projects/java/onlinestore_micro/orderservice/src/main/java/org/order/orderapi/services/OrderService.java
+/Users/priyanshuparate/projects/java/onlinestore_micro/orderservice/src/main/java/org/order/orderapi/controllers/OrderController.java
+/Users/priyanshuparate/projects/java/onlinestore_micro/orderservice/src/main/java/org/order/orderapi/dtos/InventoryCheckDto.java

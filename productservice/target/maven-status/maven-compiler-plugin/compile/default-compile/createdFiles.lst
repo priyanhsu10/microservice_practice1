@@ -1,0 +1,7 @@
+org/product/productapi/dto/ProductDto.class
+org/product/productapi/controllers/ProductController.class
+org/product/productapi/ProductapiApplication.class
+org/product/productapi/repositories/ProductRepository.class
+org/product/productapi/services/ProductService.class
+org/product/productapi/models/Product$ProductBuilder.class
+org/product/productapi/models/Product.class
