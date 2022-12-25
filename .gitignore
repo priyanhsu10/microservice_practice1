@@ -1,0 +1,7 @@
+/apigateway/target/
+/discoveryserver/target/
+/inventoryservice/target/
+/orderservice/target/
+/paymentservice/target/
+/productservice/target/
+/shipingservice/target/
