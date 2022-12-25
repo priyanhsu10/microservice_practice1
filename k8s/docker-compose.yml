@@ -44,17 +44,18 @@ services:
       - Elasticsearch
     networks:
       - elk
-#  Jaeger:
-#    image: jaegertracing/all-in-one:1.40
-#    container_name: jaeger_tracing
-#    restart: always
-#    environment:
-#      discovery.type: single-node
-#    ports:
-#      - '16686:16686'
-#      - '6831:6831/udp'
-#    networks:
-#      - elk
+  Jaeger:
+    image: jaegertracing/all-in-one:1.40
+    container_name: jaeger_tracing
+    restart: always
+    environment:
+      - SPAN_STORAGE_TYPE:elasticsearch
+
+    ports:
+      - '16686:16686'
+      - '6831:6831/udp'
+    networks:
+      - elk
 volumes:
   elastic_data: {}
 
