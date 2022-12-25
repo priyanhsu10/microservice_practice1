@@ -1,4 +1,4 @@
-package apigateway.config;
+package inventory.inventoryapi.config;
 
 import io.jaegertracing.internal.JaegerTracer;
 import io.jaegertracing.internal.samplers.ConstSampler;
@@ -16,7 +16,7 @@ public class JaegerConfig {
     @Bean
     public JaegerTracer jaegerTracer() {
 
-        return new io.jaegertracing.Configuration("api-gateway")
+        return new io.jaegertracing.Configuration("inventory-service")
                 .withSampler(new io.jaegertracing.Configuration.SamplerConfiguration().withType(ConstSampler.TYPE).withParam(1))
                 .withReporter(new io.jaegertracing.Configuration.ReporterConfiguration().withLogSpans(true))
                 .getTracer();

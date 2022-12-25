@@ -1,4 +1,4 @@
-package org.order.orderapi.config;
+package org.product.productapi.config;
 
 import io.jaegertracing.internal.JaegerTracer;
 import io.jaegertracing.internal.samplers.ConstSampler;
@@ -19,6 +19,7 @@ public class WebClientConfig {
 
     @Bean
     public JaegerTracer jaegerTracer() {
+
 
         return new io.jaegertracing.Configuration("order-service")
                 .withSampler(new io.jaegertracing.Configuration.SamplerConfiguration().withType(ConstSampler.TYPE).withParam(1))
